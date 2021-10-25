@@ -1,0 +1,12 @@
+html, body, #root {
+  height: 100%;
+  overflow:hidden;
+}
+
+body{
+  background-image: url("./../src/images/background.jpg");
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+}

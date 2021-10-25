@@ -1,0 +1,19 @@
+
+.landing{   
+    color:blue; 
+}
+
+.takeoff{
+  
+    color:green;
+}
+
+.flightSize{
+  
+  width:30%;
+  height: 30%; 
+}
+
+.flightName{
+  font-size:1vw;
+}

@@ -1,0 +1,21 @@
+.box {
+  height: 100%;
+  border: 5px solid #f60713;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  padding: 0;
+}
+
+.draggable {
+  padding: 10;
+  background: white;
+  color: black;
+  border: 1px solid black;
+  font-size: 100px;
+  border-radius: 5px;
+  text-align: center;
+  width:calc(100% / 8);
+  height:calc(30%);
+  display: inline-table;
+}

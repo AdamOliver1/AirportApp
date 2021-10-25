@@ -1,0 +1,47 @@
+﻿<Application x:Class="FlightsSimulator.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:FlightsSimulator"
+              xmlns:vm="clr-namespace:FlightsSimulator.ViewModels" 
+             Startup="Application_Startup">
+    <Application.Resources>
+        <ResourceDictionary>
+            <vm:ViewModelLocator x:Key="Locator"/>
+            <Style x:Key="center" TargetType="FrameworkElement">
+                <Setter Property="HorizontalAlignment" Value="Center"/>
+                <Setter Property="VerticalAlignment" Value="Center"/>
+            </Style>
+
+            <Style x:Key="baseButton" TargetType="Button">
+                <Setter Property="Width" Value="120"/>
+                <Setter Property="Height" Value="50"/>
+                <Setter Property="VerticalAlignment" Value="Top"/>
+            </Style>
+            
+            <Style x:Key="send" TargetType="Button" BasedOn="{StaticResource baseButton}">
+                <Setter Property="HorizontalAlignment" Value="Left"/>
+                <Setter Property="Content" Value="Send Flights"/>
+            </Style>
+
+            <Style x:Key="stop" TargetType="Button" BasedOn="{StaticResource baseButton}">
+                <Setter Property="HorizontalAlignment" Value="Right"/>
+                <Setter Property="Content" Value="Stop Flights"/>
+            </Style>
+
+            <Style TargetType="Slider"  BasedOn="{StaticResource center}" />
+            <Style TargetType="TextBlock">
+                <Setter Property="HorizontalAlignment" Value="Center"/>
+                <Setter Property="FontSize" Value="20"/>
+            </Style>
+
+
+
+        
+          
+
+            <BooleanToVisibilityConverter x:Key="BoolToVis" />
+
+
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
