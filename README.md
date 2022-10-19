@@ -1,5 +1,5 @@
 ## AirportApp 🛫
-An e2e asynchronous project that handles an airport's incoming and outgoing flights.<br />
+An e2e asynchronic project that handles an airport's incoming and outgoing flights.<br />
 Aircraft travel through various ‘stations’ and each ‘station’ is connected to one or more other stations,<br />
 that specialize in landing and\or takeoff.<br />
 Based on the data received, the system plans an itinerary of stations for each flight.
