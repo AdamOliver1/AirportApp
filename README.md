@@ -1,6 +1,4 @@
-
-Airport App 🛫
-## AirportApp 
+## AirportApp 🛫
 An e2e project that handles airport's incoming/outgoing flights using 
 ReactTs-Asp.Net-Sqlite
 
@@ -17,6 +15,7 @@ Clone this repository
 ## Frontend
 In `/frontend/` folder run:
 
-```npm i
+```
+npm i
 npm start
 ```
