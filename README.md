@@ -1,6 +1,7 @@
 ## AirportApp 🛫
-An e2e project that handles airport's incoming/outgoing flights using 
-ReactTs-Asp.Net-Sqlite
+An e2e asynchronous project that handles an airport's incoming and outgoing flights.
+Aircraft travel through various ‘stations’ and each ‘station’ is connected to one or more other stations, that specialize in landing and\or takeoff. 
+Based on the data received, the system plans an itinerary of stations for each flight.
 
 ***Includes:***
 * 👓 Rest API that handles all the logic (in Asp.Net core).
